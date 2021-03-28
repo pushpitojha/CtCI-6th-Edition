@@ -80,33 +80,5 @@ public class B1_RemoveDups {
 		}
 		return head;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	/*
-	 * if(head==null) {
-			return null;
-		}
-		
-		Node<Integer> curr = head;
-		while(curr != null) {
-			Node<Integer> runn = curr;
-			while(runn.next != null) {
-				if(curr.data == runn.next.data) {
-					runn.next = runn.next.next;
-				}
-				else {
-					runn = runn.next;
-				}
-			}
-			curr = curr.next;
-		}
-		return head;
-	 */
 	 
 }
